@@ -879,7 +879,7 @@ html {
 }
 
 .contact-info h3 {
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 20px;
     color: var(--primary-color); 
 }
@@ -891,7 +891,7 @@ html {
 }
 
 .contact-info ul li {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 15px;
     color: #fff; 
 }
@@ -907,7 +907,7 @@ html {
 
 .social-icon {
     display: inline-block;
-    font-size: 24px;
+    font-size: 18px;
     margin-right: 10px;
     color: #fff;
     transition: color 0.3s;
@@ -1099,9 +1099,9 @@ html {
 
 /*======== Footer Section Styling ========*/
 .footer {
-    background-color: var(--primary-color);
-    color: #111;
-    padding: 50px 0;
+    background-color: #111; 
+    color: #f1f1f1; 
+    padding: 60px 0;
 }
 
 .footer-container {
@@ -1126,13 +1126,19 @@ html {
     margin-bottom: 20px;
 }
 
-.footer-info h3 span{
+.footer-info h3 span {
     color: #fe019a;
 }
 
 .footer-info p {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 16px; 
+    line-height: 1.8; 
+    margin-bottom: 20px; 
+    color: #d3d3d3; 
+    font-weight: 300;
+    max-width: 600px; 
+    padding: 0 15px; 
+    box-sizing: border-box; 
 }
 
 .footer-links ul {
@@ -1145,13 +1151,14 @@ html {
 }
 
 .footer-links ul li a {
-    color: #111;
+    color: #f1f1f1; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .footer-links ul li a:hover {
-    color: #444;
+    color: #fe019a;
+    text-decoration: underline;
 }
 
 .footer-social .social-links {
@@ -1160,7 +1167,7 @@ html {
 }
 
 .footer-social .social-icon {
-    color: #111;
+    color: #f1f1f1;
     font-size: 24px;
     text-decoration: none;
     transition: color 0.3s;
@@ -1178,8 +1185,8 @@ html {
 .footer-bottom p {
     margin: 0;
     font-size: 14px;
+    color: #f1f1f1; 
 }
-
 
 /*======== Media Queries for Footer section ========*/
 @media only screen and (max-width: 600px) {
@@ -1203,6 +1210,8 @@ html {
 
     .footer-info p {
         font-size: 14px;
+        max-width: 100%; 
+        padding: 0 10px; 
     }
 
     .footer-links ul li {
@@ -1247,7 +1256,13 @@ html {
 
     .footer-info p {
         font-size: 16px;
-        line-height: 1.6;
+        line-height: 1.8; 
+        margin-bottom: 20px;
+        color: #d3d3d3;
+        font-weight: 300; 
+        max-width: 600px; 
+        padding: 0 15px; 
+        box-sizing: border-box; 
     }
 
     .footer-links ul {
@@ -1260,13 +1275,13 @@ html {
     }
 
     .footer-links ul li a {
-        color: #111;
+        color: #f1f1f1;
         text-decoration: none;
         transition: color 0.3s;
     }
 
     .footer-links ul li a:hover {
-        color: #444;
+        color: #fe019a;
     }
 
     .footer-social .social-links {
@@ -1275,7 +1290,7 @@ html {
     }
 
     .footer-social .social-icon {
-        color: #111;
+        color: #f1f1f1;
         font-size: 24px;
         text-decoration: none;
         transition: color 0.3s;
@@ -1329,4 +1344,3 @@ html {
         max-width: 1200px;
     }
 }
-
